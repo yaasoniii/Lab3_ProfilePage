@@ -48,7 +48,7 @@ body {
 .hobby {
     flex: 1 1 200px; 
     background-color: rgba(255, 255, 255, 0.65);
-    border: 2px solid #ddd;
+    border: none;
     border-radius: 10px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
