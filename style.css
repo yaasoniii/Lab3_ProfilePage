@@ -18,6 +18,32 @@ body {
     border-bottom: 2px solid #ddd;
 
 }
+    .dark-mode {
+    background: url(BackgroundPicture/2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;       
+}
+
+.dark-mode .bigBoss{
+    background-color: #161616;
+}
+
+.dark-mode .bio,
+.dark-mode .name{
+    color: white;
+}
+
+.dark-mode,
+.dark-mode .bigBoss,
+.dark-mode .name,
+.dark-mode .bio{
+    transition: 0.5s;
+}
+
+
+
 
 .pfp-image {
     border-radius: 50%;
