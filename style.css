@@ -17,7 +17,32 @@ body {
     background-color: #fff;
     
 
+
 }
+
+.theme{
+    position: absolute;
+    right: 0;
+    margin-right: 20px;
+}
+
+.theme-button {
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.theme-button:hover{
+    transform: translateY(-2px);
+    transition: 0.2s;
+    padding: 10px 17px;
+    box-shadow:0px 2px 5px rgba(0,0,0,0.1);
+}
+
+
     .dark-mode {
     background: url(BackgroundPicture/2.jpg);
     background-size: cover;
@@ -31,16 +56,19 @@ body {
 }
 
 .dark-mode .bio,
-.dark-mode .name{
+.dark-mode .name,
+.dark-mode .hobbies-section h2{
     color: white;
 }
 
 .dark-mode,
 .dark-mode .bigBoss,
 .dark-mode .name,
-.dark-mode .bio{
+.dark-mode .bio,
+.dark-mode .hobbies-section h2{
     transition: 0.5s;
 }
+
 
 
 
